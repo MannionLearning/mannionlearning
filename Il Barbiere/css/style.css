@@ -1,0 +1,68 @@
+/* Reset default margin andpadding */
+
+*{
+    margin: 0;
+    padding 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color:bisque;
+    padding: 20px;
+    text-align: center;
+}
+ #services ul {
+    list-style: none;
+    padding: 0;
+    display:flex;
+ }
+
+ #services ul li {
+    margin-right: 20px;
+ }
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display:green;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: thistle
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: teal;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.image-gallery img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #5544;
+    color: #234732;
+    text-align: center;
+    padding: 10px;
+}
+.page-break {
+    page-break-after: always;
+}
