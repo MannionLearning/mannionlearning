@@ -1,4 +1,4 @@
-/* Reset default margin andpadding */
+/* Reset default margin and padding */
 
 *{
     margin: 0;
@@ -17,16 +17,46 @@ header {
     text-align: center;
 }
 
-    #home {
+.openingHours {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+    #container1 {
         text-align: center;
         font-style: italic;
         font-size: 25px;
+        
+    }
+    #container1 li{
+        text-align: center;
     }
 
+    #container2 {
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        
+    }
+    #container2 li{
+        text-align: center;
+    }
+.services h2{
+    text-align: center;
+}
 
 .services  {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: start;
     width: 100%;
     color: black;
     background-color:teal;
@@ -38,6 +68,7 @@ header {
 
 .services ul li {
     list-style:none;
+    text-align: center;
     
 }
 
@@ -54,7 +85,66 @@ nav ul li {
 nav ul li a {
     margin: 20px;
     text-decoration: none;
-    color: thistle
+    color: orange
+}
+
+.main-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: start;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+}
+
+main ol {
+    display: none;
+    text-align: left;
+}
+
+main ul {
+    list-style-type:none; 
+    padding: 0;
+    text-align: left;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+.enquiry-box {
+    padding:20px;
+    border-radius:5px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.enquiry-box label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.enquiry-box input[type="text"],
+.enquiry-box input[type="email"],
+.enquiry-box textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.enquiry-box button{
+    padding: 10px 20px;
+    background-color: rgba(231, 114, 114, 0.493);
+    color:#5544
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
 }
 
 section {

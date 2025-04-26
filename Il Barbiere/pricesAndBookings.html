@@ -6,10 +6,14 @@
     <title>Il Barbiere</title>
     <meta name="description" content="We specialise in male hair cuts in the cambridge city center area with student discounts and hair care products">
     <link rel="stylesheet" href="css/style.css"
-    </head>
+</head>
     
     <body>
         <header>
+            <div class="openingHours">
+                Monday - Friday: 9am - 7pm<br>
+                Saturday: 10am - 5pm
+            </div>
             <h1>Il Barbiere</h1>
             <nav>
                 <ul>
@@ -20,71 +24,82 @@
                 </ul>
             </nav>
         </header>
-        <main>
 
+        <div class="services">
+            <main>
+                <h2>Prices and Bookings</h2>
+                <br>
+                    <ul>
+                        <li>Standard Hair Cut £20</li>
+                        <li>Beard Trim £10</li>
+                        <li>Hair Fading £15</li>
+                        <li>Hair Tinting £33</li>
+                        <li>Hot Shave £15</li>
+                        <li>Scalp Massage £18</li>
+                        <li>Beard and Hair Styling £17.50</li>
+                    </ul>
+            </main>
 
-            <div class="services">
-                <h2>Our Services</h2>
-                <ul>
-                    <li>Standard Hair Cut</li>
-                    <li>Beard Trim</li>
-                    <li>Hair Fading</li>
-                    <li>Hair Tinting</li>
-                    <li>Hot Shave</li>
-                    <li>Scalp Massage</li>
-                    <li>Beard and Hair Styling</li>
-                </ul>
-
-
-        <div class=""enquiry-box">
-            <p>Tel: <a href="tel:01223 222222">01223 222222</a>Email: <a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a></p>
-            <h3>Enquiry Form</h3>
-            <form onsubmit="return validateForm()">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="3" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
+            <aside class="enquiry-box">
+                <p>Tel: <a href="tel:01223 222222">01223 222222
+                </a>Email: <a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a></p>
+                <h3>Enquiry Form</h3>
+                <form onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Please provide time, date and service required and we will be in touch shortly. For student discount please provide your student ID No here and bring your card on the day for your discount! </label>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </aside>
         </div>
 
 
-
-            <section id="gallery">
-                <div class="image-gallery">
-                    <img src="images/photo1.png" alt="Haircut">
-                    <img src="images/photo2.png" alt="Beard Trim">
-                    <img src="images/photo3.png" alt="Hair Dye">
-                </div>
-            </section>
-
-            <section id="contact">
-                <h2>Contact Us</h2>
-                <p>To make a booking simply call<a href="tel:01223222222"> 01223 222222</a> or email <a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a> or you can use our prices and bookings booking form!</p>
-
-            </section>
-    </main>
-        <footer>
-            <div>
-                <div><h2>10 Cambridge Road,<br>Cambridge,<br>Cambridgeshiere,<br>CB1 1EG</h2></div>
-                <p><a href="https://www.google.com/maps?q=10+Cambridge+Road,+Cambridge,+Cambridgeshiere,+CB1+1EG" target="_blank">View on Google Maps</a></p>
+        <section id="gallery">
+            <div class="image-gallery">
+                <img src="images/photo1.png" alt="Haircut">
+                <img src="images/photo2.png" alt="Beard Trim">
+                <img src="images/photo3.png" alt="Hair Dye">
             </div>
-            <div><p>Tel:<a href="tel:01223222222">01223 222222</a></p>
-            <p>&nbsp;</p>
-        Email:<a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>To make a booking simply call<a href="tel:01223222222"> 01223 222222</a> or email <a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a> or you can use our <a href="pricesAndBookings.html">Prices and Bookings</a> form!</p>
+
+        </section>
+    
+    <footer>
         <div>
-            <a href="https://www.facebook.com" targets="_blank">
-                <img src="images/facebook2.png" alt ="Facebook logo" height="100" width="100">
-            </a>
-            <a href="https://www.instagram.com" targets="_blank">
-                <img src="images/instagramlogo.jpg" alt ="Instagram logo" height="100" width="100">
-            </a>
-            <h3>Follow us on Facebook and Instagram</h3>
+            <div><h2>10 Cambridge Road,<br>Cambridge,<br>Cambridgeshiere,<br>CB1 1EG</h2></div>
+            <p><a href="https://www.google.com/maps?q=10+Cambridge+Road,+Cambridge,+Cambridgeshiere,+CB1+1EG" target="_blank">View on Google Maps</a></p>
         </div>
-        </footer>
+        <div><p>Tel:<a href="tel:01223222222">01223 222222</a></p>
+        <p>&nbsp;</p>
+    Email:<a href="mailto:sales@Ilbarbiere.co.uk">sales@Ilbarbiere.co.uk</a></div>
+    <div>
+        <a href="https://www.facebook.com" targets="_blank">
+            <img src="images/facebook2.png" alt ="Facebook logo" height="100" width="100">
+        </a>
+        <a href="https://www.instagram.com" targets="_blank">
+            <img src="images/instagramlogo.jpg" alt ="Instagram logo" height="100" width="100">
+        </a>
+        <h3>Follow us on Facebook and Instagram</h3>
+    </div>
+    </footer>
+    <script>
+        function validateForm() {
+            var emailInput = document.getElementById('email').value;
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(emailInput)) {
+                document.write("Please enter a valid email address.");
+                return false; 
+            }
+            return true; 
+        }
+    </script>
 
-
-            </body>
-            </html>
+    </body>
+    </html>
