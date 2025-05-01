@@ -12,7 +12,7 @@ body {
 
 header {
     font-size: 50px;
-    background-color:teal;
+    background-color:blue;
     padding: 20px;
     text-align: center;
 }
@@ -33,33 +33,42 @@ header {
         text-align: center;
         font-style: italic;
         font-size: 25px;
+        color: white;
         
     }
     #container1 li{
         text-align: center;
+    }
+    /* all "a tags" used based on code taken from co pilot*/
+    #container1 a {
+        color:yellow;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     #container2 {
         text-align: center;
         font-style: italic;
         font-size: 25px;
+        color: white;
         
     }
     #container2 li{
         text-align: center;
+        color:white;
     }
 .services h2{
     text-align: center;
 }
-
+/*styling for services section*/
 .services  {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     align-items: start;
     width: 100%;
-    color: black;
-    background-color:teal;
+    color: white;
+    background-color:blue;
     text-align: center;
     font-size: 25px;
     font-style: italic;
@@ -71,7 +80,7 @@ header {
     text-align: center;
     
 }
-
+/* navigation bar styling*/
 nav ul {
     list-style: none;
 }
@@ -85,7 +94,7 @@ nav ul li {
 nav ul li a {
     margin: 20px;
     text-decoration: none;
-    color: orange
+    color: white;
 }
 
 .main-container {
@@ -140,17 +149,22 @@ main li {
 
 .enquiry-box button{
     padding: 10px 20px;
-    background-color: rgba(231, 114, 114, 0.493);
-    color:#5544
+    background-color: white;
     border: none;
     border-radius: 1px;
     cursor: pointer;
 }
 
+.enquiry-box a {
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: teal;
+    background-color: blue;
     text-align: center;
 }
 
@@ -162,8 +176,21 @@ section {
 
 .image-gallery img {
     width: 20%;
+    max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    display: block;
+}
+
+#contact{
+    color: white;
+    background-color: blue;
+}
+
+#contact a {
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 footer {
